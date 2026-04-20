@@ -1,0 +1,70 @@
+{
+  "model_name": "EcoLens Waste Classifier",
+  "architecture": "MobileNetV2 + Custom Head",
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "trained_at": "2026-04-16T15:28:34.844702",
+  "test_accuracy": 0.9663865566253662,
+  "test_top2_accuracy": 0.9971988797187805,
+  "per_class_metrics": {
+    "cardboard": {
+      "precision": 0.990909090909091,
+      "recall": 0.956140350877193,
+      "f1-score": 0.9732142857142857,
+      "support": 114.0
+    },
+    "glass": {
+      "precision": 0.9708029197080292,
+      "recall": 0.9366197183098591,
+      "f1-score": 0.953405017921147,
+      "support": 142.0
+    },
+    "metal": {
+      "precision": 0.9435483870967742,
+      "recall": 0.9915254237288136,
+      "f1-score": 0.9669421487603306,
+      "support": 118.0
+    },
+    "paper": {
+      "precision": 0.9642857142857143,
+      "recall": 0.9818181818181818,
+      "f1-score": 0.972972972972973,
+      "support": 165.0
+    },
+    "plastic": {
+      "precision": 0.9635036496350365,
+      "recall": 0.9705882352941176,
+      "f1-score": 0.967032967032967,
+      "support": 136.0
+    },
+    "trash": {
+      "precision": 0.9736842105263158,
+      "recall": 0.9487179487179487,
+      "f1-score": 0.961038961038961,
+      "support": 39.0
+    },
+    "accuracy": 0.9663865546218487,
+    "macro avg": {
+      "precision": 0.9677889953601602,
+      "recall": 0.9642349764576856,
+      "f1-score": 0.965767725573444,
+      "support": 714.0
+    },
+    "weighted avg": {
+      "precision": 0.9667698656269328,
+      "recall": 0.9663865546218487,
+      "f1-score": 0.966339857433465,
+      "support": 714.0
+    }
+  }
+}
